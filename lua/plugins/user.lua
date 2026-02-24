@@ -56,15 +56,24 @@ return {
     end,
   },
   {
-    'sainnhe/sonokai',
+    'AlexvZyl/nordic.nvim',
     lazy = false,
     priority = 1000,
     config = function()
-      vim.g.sonokai_style = 'andromeda'
-      vim.g.sonokai_enable_italic = true
-      vim.cmd.colorscheme "sonokai"
+      require('nordic').load()
+      vim.cmd.colorscheme "nordic"
     end
   },
+  -- {
+  --   'sainnhe/sonokai',
+  --   lazy = false,
+  --   priority = 1000,
+  --   config = function()
+  --     vim.g.sonokai_style = 'andromeda'
+  --     vim.g.sonokai_enable_italic = true
+  --     vim.cmd.colorscheme "sonokai"
+  --   end
+  -- },
   -- {
   --   "catppuccin/nvim",
   --   name = "catppuccin",

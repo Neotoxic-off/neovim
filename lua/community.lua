@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.night-owl-nvim" },
   { import = "astrocommunity.colorscheme.sonokai" },
+  { import = "astrocommunity.colorscheme.nordic-nvim" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.lua" },
