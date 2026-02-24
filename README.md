@@ -1,5 +1,7 @@
 # Neovim configuration
 
+**This config is a custom astrovim config**
+
 ## Installation
 
 #### Backup
