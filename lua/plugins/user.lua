@@ -56,37 +56,6 @@ return {
     end,
   },
   {
-    'AlexvZyl/nordic.nvim',
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require('nordic').load()
-      vim.cmd.colorscheme "nordic"
-    end
-  },
-  -- {
-  --   'sainnhe/sonokai',
-  --   lazy = false,
-  --   priority = 1000,
-  --   config = function()
-  --     vim.g.sonokai_style = 'andromeda'
-  --     vim.g.sonokai_enable_italic = true
-  --     vim.cmd.colorscheme "sonokai"
-  --   end
-  -- },
-  -- {
-  --   "catppuccin/nvim",
-  --   name = "catppuccin",
-  --   priority = 1000,
-  --   config = function()
-  --     require("catppuccin").setup {
-  --       flavour = "mocha",
-  --     }
-  --     vim.cmd.colorscheme "catppuccin"
-  --   end,
-  -- },
-
-  {
     "windwp/nvim-autopairs",
     config = function(plugin, opts)
       require "astronvim.plugins.configs.nvim-autopairs"(plugin, opts) -- include the default astronvim config that calls the setup call
