@@ -17,6 +17,9 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 git clone https://github.com/Neotoxic-off/neovim ~/.config/nvim ; nvim
 ```
 
+## UI
+- Status line: Nvchad
+- Colorscheme: Onedark
 
 ## Custom shortcuts
 ### Buffer tabs
