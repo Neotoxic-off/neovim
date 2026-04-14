@@ -17,5 +17,4 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.recipes.vscode-icons" }
-  -- import/override with your plugins folder
 }
