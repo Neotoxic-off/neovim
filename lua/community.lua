@@ -13,8 +13,5 @@ return {
   { import = "astrocommunity.colorscheme.sonokai" },
   { import = "astrocommunity.colorscheme.nordic-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
-  { import = "astrocommunity.pack.rust" },
-  { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.recipes.vscode-icons" }
 }
